@@ -1,3 +1,5 @@
+package lv.javaguru.homework.level2;
+
 //ieliec majas darbus atsevišķā "package" - lv.javaguru.homework.lesson2
 public class MathOperations {
     public static void main(String[] args) {
