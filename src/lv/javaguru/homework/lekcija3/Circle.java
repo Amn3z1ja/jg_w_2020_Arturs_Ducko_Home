@@ -1,4 +1,4 @@
-package lv.javaguru.homework.level3;
+package lv.javaguru.homework.lekcija3;
 
 public class Circle {
     double radius;

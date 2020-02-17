@@ -1,4 +1,4 @@
-package lv.javaguru.homework.level2;//ieliec majas darbus atsevišķā "package" - lv.javaguru.homework.lesson2
+package lv.javaguru.homework.lekcija2;//ieliec majas darbus atsevišķā "package" - lv.javaguru.homework.lesson2
 import java.util.Random;
 
 public class RandomNumbersServiceTest {
