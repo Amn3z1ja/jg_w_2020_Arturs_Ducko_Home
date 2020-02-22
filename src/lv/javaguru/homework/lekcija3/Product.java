@@ -27,8 +27,8 @@ public class Product {
         this.discount = discount;
     }
 
-    public double calculateActualPrice(double regularPrice, double discount ){
-        double discountResult = regularPrice * discount;
+        double calculateActualPrice(double regularPrice, double discount ){
+        double discountResult = regularPrice- (regularPrice*discount);
         return discountResult;
     }
 }

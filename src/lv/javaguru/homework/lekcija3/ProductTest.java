@@ -2,21 +2,21 @@ package lv.javaguru.homework.lekcija3;
 
 public class ProductTest {
     public static void main(String[] args) {
-        Product microdot = new Product();
-        microdot.setName("Milk");
-        microdot.setRegularPrice(0.80);
-        microdot.setDiscount(0.20);
+        Product productPrice = new Product();
+        productPrice.setName("Milk");
+        productPrice.setRegularPrice(0.80);
+        productPrice.setDiscount(0.20);
 
-        String productName = microdot.getName();
-        double actualPrice = microdot.getRegularPrice();
-        double finalDiscount = microdot.getDiscount();
+        String productName = productPrice.getName();
+        double actualPrice = productPrice.getRegularPrice();
+        double finalDiscount = productPrice.getDiscount();
 
-        double discountResult = microdot.calculateActualPrice(0.8,0.2);
+        double discountResult = productPrice.calculateActualPrice(0.8,0.2);
 
         System.out.println("Name:"+productName);
         System.out.println("Regular price:"+actualPrice);
         System.out.println("Discount:"+finalDiscount);
-        System.out.println("Price:"+discountResult);
+        System.out.println("Price with discount:"+discountResult);
 
     }
 }

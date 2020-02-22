@@ -7,7 +7,7 @@ public class CircleTest {
 
 //        double circleResult = mycircle.getRadius();
         double circleResult = mycircle.calculateArea();
-        System.out.println("Circle radius"+circleResult);
+        System.out.println("Circle radius "+circleResult);
 
     }
 }
