@@ -1,6 +1,8 @@
 package lv.javaguru.homework.lekcija3;
 
 public class Car {
+
+    //stāvokļiem ir jābut "private"
     String color;
     String manufacturer;
     int year;
