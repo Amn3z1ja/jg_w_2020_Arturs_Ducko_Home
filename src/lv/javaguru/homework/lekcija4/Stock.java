@@ -1,5 +1,6 @@
 package lv.javaguru.homework.lekcija4;
 
+//pabeidz šo mājas darbu - trūkst testu
 public class Stock {
     private String company;
     private double currentValue;
