@@ -1,5 +1,6 @@
 package lv.javaguru.homework.lekcija4;
 
+//ok
 public class LightColorDetector {
 
     public String detect(int wavelength) {

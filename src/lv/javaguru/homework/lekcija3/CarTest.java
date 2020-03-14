@@ -2,7 +2,7 @@ package lv.javaguru.homework.lekcija3;
 
 public class CarTest {
     public static void main(String[] args) {
-        Car mycar = new Car();
+        Car mycar = new Car(); //camelCase - myCar
         mycar.setColor("blue");
         mycar.setManufacturer("BMW");
         mycar.setYear(2000);

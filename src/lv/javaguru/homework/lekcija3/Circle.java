@@ -1,6 +1,9 @@
 package lv.javaguru.homework.lekcija3;
 
+//izmanto ctrl + alt + l
 public class Circle {
+
+    //stāvoklim jābūt private
     double radius;
 
     public double getRadius() {
@@ -11,6 +14,7 @@ public class Circle {
         this.radius = radius;
     }
 
+    //pi ir 3.14 :)
     double calculateArea() {
         return 3.13 *radius*radius;
     }
