@@ -3,25 +3,26 @@ package lv.javaguru.homework.lekcija4;
 public class LightColorDetector {
 
     public String detect(int wavelength) {
-        if (wavelength <= 380) {
+
+        if (wavelength > 380 && wavelength <= 449) {
             return "Violet";
         }
-        if (wavelength <= 450) {
-            return "Blue";
+        if (wavelength > 450 && wavelength <= 495) {
+            return "blue";
         }
-        if (wavelength <= 495) {
-            return "Green";
+        if (wavelength > 495 && wavelength <= 570) {
+            return "green";
         }
-        if (wavelength <= 570) {
-            return "Yellow";
+        if (wavelength > 570 && wavelength <= 590) {
+            return "yellow";
         }
-        if (wavelength <= 590) {
-            return "Orange";
+        if (wavelength > 590 && wavelength <= 620) {
+            return "orange";
         }
-        if (wavelength <= 620) {
-            return "Red";
+        if (wavelength > 620 && wavelength <= 750) {
+            return "red";
         }
-        return "White";
+        return "random";
 
     }
 }
