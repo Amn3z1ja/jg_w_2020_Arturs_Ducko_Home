@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija3;
+package lv.javaguru.homework.lesson3;
 
 //izmanto ctrl + alt + l
 public class Circle {

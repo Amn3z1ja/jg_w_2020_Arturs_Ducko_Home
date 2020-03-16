@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija4;
+package lv.javaguru.homework.lesson4;
 
 //šeit ir jāpārbauda katrs viļņa garums, ne tikai viens variants
 public class LightColorDetectorTest {

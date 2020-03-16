@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija4;
+package lv.javaguru.homework.lesson4;
 
 //pabeidz šo mājas darbu - trūkst testu
 public class Stock {

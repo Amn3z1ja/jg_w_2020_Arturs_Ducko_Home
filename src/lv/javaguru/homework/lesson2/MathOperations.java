@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija2;
+package lv.javaguru.homework.lesson2;
 
 //ieliec majas darbus atsevišķā "package" - lv.javaguru.homework.lesson2
 public class MathOperations {

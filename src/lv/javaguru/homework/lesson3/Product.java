@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija3;
+package lv.javaguru.homework.lesson3;
 
 public class Product {
     //stāvokļiem jābūt "private"

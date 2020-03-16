@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija3;
+package lv.javaguru.homework.lesson3;
 
 public class CarTest {
     public static void main(String[] args) {

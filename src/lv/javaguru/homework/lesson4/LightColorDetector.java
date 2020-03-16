@@ -1,4 +1,4 @@
-package lv.javaguru.homework.lekcija4;
+package lv.javaguru.homework.lesson4;
 
 //ok
 public class LightColorDetector {
