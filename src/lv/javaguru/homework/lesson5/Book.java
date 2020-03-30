@@ -1,5 +1,7 @@
 package lv.javaguru.homework.lesson5;
 
+//Ok
+//izmanto "ctrl + alt + l"
 public class Book {
     private String author;
     private String title;
