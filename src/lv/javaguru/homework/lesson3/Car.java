@@ -3,9 +3,9 @@ package lv.javaguru.homework.lesson3;
 public class Car {
 
     //stāvokļiem ir jābut "private"
-    String color;
-    String manufacturer;
-    int year;
+    private String color;
+    private String manufacturer;
+    private int year;
 
     public String getColor() {
         return color;

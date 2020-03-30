@@ -1,10 +1,10 @@
 package lv.javaguru.homework.lesson3;
 
 //izmanto ctrl + alt + l
-public class Circle {
+   public class Circle {
 
     //stāvoklim jābūt private
-    double radius;
+     double radius;
 
     public double getRadius() {
         return radius;

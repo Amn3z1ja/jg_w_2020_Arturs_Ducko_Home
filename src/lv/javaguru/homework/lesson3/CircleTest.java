@@ -2,12 +2,12 @@ package lv.javaguru.homework.lesson3;
 
 public class CircleTest {
     public static void main(String[] args) {
-        Circle mycircle = new Circle(); //camelCase - myCircle
-        mycircle.radius = 10;
+        Circle myCircle = new Circle(); //camelCase - myCircle
+        myCircle.radius = 10;
 
         //aizkomentēto kodu izdzēs, neatstāj
-//        double circleResult = mycircle.getRadius();
-        double circleResult = mycircle.calculateArea();
+
+        double circleResult = myCircle.calculateArea();
         System.out.println("Circle radius "+circleResult);
 
     }

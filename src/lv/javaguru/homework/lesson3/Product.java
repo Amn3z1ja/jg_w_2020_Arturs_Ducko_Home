@@ -2,9 +2,9 @@ package lv.javaguru.homework.lesson3;
 
 public class Product {
     //stāvokļiem jābūt "private"
-    String name;
-    double regularPrice;
-    double discount;
+    private  String name;
+    private double regularPrice;
+    private double discount;
 
     public String getName() {
         return name;

@@ -8,14 +8,14 @@ public class RandomNumbersServiceTest {
         Random randomGenerator = new Random();
 
         int firstRandomNumber = randomGenerator.nextInt(10);
-        int secondRandomNumber = randomGenerator.nextInt(10);
-        int thirdRandomNumber = randomGenerator.nextInt(10);
+//        int secondRandomNumber = randomGenerator.nextInt(10);
+//        int thirdRandomNumber = randomGenerator.nextInt(10);
+//
+//        int mySUM = firstRandomNumber+secondRandomNumber+thirdRandomNumber;
 
-        int mySUM = firstRandomNumber+secondRandomNumber+thirdRandomNumber;
-
-        System.out.print(firstRandomNumber+"+");
-        System.out.print(secondRandomNumber+"+");
-        System.out.print(thirdRandomNumber+"+");
-        System.out.println("Summa:"+mySUM);
+        System.out.print(firstRandomNumber);
+//        System.out.print(secondRandomNumber+"+");
+//        System.out.print(thirdRandomNumber+"+");
+//        System.out.println("= Summa:"+mySUM);
     }
 }
