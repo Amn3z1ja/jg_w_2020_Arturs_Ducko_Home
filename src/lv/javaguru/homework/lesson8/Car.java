@@ -3,6 +3,8 @@ package lv.javaguru.homework.lesson8;
 import java.util.Objects;
 
 public class Car {
+
+    //stāvokļiem jābūt private vai protected (ja tos "bērni" izmanto)
         int yearOfManufacturer;
         String manufacturer;
 

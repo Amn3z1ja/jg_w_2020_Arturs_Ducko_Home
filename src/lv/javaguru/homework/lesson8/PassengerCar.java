@@ -3,8 +3,8 @@ package lv.javaguru.homework.lesson8;
 import java.util.Objects;
 
 public class PassengerCar extends Car {
-    int maxSeats;
 
+    int maxSeats; //stāvoklim ir jābūt private
 
     public PassengerCar(int yearOfManufacturer, String manufacturer, int maxSeats) {
         super(yearOfManufacturer, manufacturer);

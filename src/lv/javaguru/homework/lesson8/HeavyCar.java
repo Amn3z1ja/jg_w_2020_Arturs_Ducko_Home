@@ -1,9 +1,9 @@
 package lv.javaguru.homework.lesson8;
 
-import java.util.Objects;
+import java.util.Objects;//neizmantots imports - dzēst
 
 public class HeavyCar extends Car {
-    double cargoWeight;
+    double cargoWeight;  //stāvoklim ir jābūt private
 
     public HeavyCar(int yearOfManufacturer, String manufacturer, double cargoWeight) {
         super(yearOfManufacturer, manufacturer);

@@ -1,9 +1,9 @@
 package lv.javaguru.homework.lesson8;
 
-import java.util.Objects;
+import java.util.Objects;  //neizmantots imports - dzēst
 
 public class Buss extends Car {
-    int totalWeight;
+    int totalWeight; //jābūt private - inkapsulācija
 
     public Buss(int yearOfManufacturer, String manufacturer, int totalWeight) {
         super(yearOfManufacturer, manufacturer);
