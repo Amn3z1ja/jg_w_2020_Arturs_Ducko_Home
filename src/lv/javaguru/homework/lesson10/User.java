@@ -2,6 +2,7 @@ package lv.javaguru.homework.lesson10;
 
 import java.util.Objects;
 
+//seterus šeit varēji arī nelikt
 public class User {
     private String name;
     private String lastName;

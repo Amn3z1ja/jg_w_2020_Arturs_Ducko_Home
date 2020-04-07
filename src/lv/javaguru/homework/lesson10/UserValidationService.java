@@ -4,6 +4,7 @@ public class UserValidationService {
 
     public static void validate(User user) {
 
+        //šīm ir jābūt konstantēm
         int nameCharMin = 3;
         int nameCharMax = 15;
         int ageMin = 0;
